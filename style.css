@@ -49,9 +49,35 @@ html,body{
 .left{
     height: 100%;
     width: 50%;
-    background-color:blanchedalmond ;
+    /* background-color:blanchedalmond ; */
     padding: 6vw 7vw;
 }
+.left button {
+    margin-top: 4vw;
+    font-size: 1.5vw;
+    background-color: lightseagreen;
+    border: none;
+    padding: 1vw 2vw;
+    color: #fff;
+    border-radius: 3px;
+
+}
+.left h1{
+    font-size: 4.5vw;
+    line-height: 4.8vw;
+    margin-top: 2vw;
+    color: #211f1f;
+}
+.left p{
+    font-size:2vw ;
+    line-height: 2.8vw;
+    margin-top: 4vw;
+}
+.left span {
+    color: lightseagreen;
+}
+
+
 .right{
     height: 100%;
     width: 50%;
