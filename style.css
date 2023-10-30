@@ -23,13 +23,17 @@ html,body{
     align-items:center ;
     justify-content: space-between;
     padding: 0 2.5vw;
-    border-bottom: 2px solid #dadada;
+    /* border-bottom: 2px solid #dadada; */
 }
 .nav h2{
     font-size: 3vw;
+    color: #032018;
 }
 .nav h4{
     font-size: 1.5vw;
+}
+.nav h4:hover{
+    color:#1C60B4;
 }
 .nav i {
     display: none;
@@ -54,13 +58,17 @@ html,body{
 }
 .left button {
     margin-top: 4vw;
-    font-size: 1.5vw;
-    background-color: lightseagreen;
+    font-size: 2.1vw;
+    background-color: #1C60B4;
     border: none;
     padding: 1vw 2vw;
     color: #fff;
-    border-radius: 3px;
+    border-radius: 5px;
 
+}
+.left button:hover{
+    background-color:#71ABF5;
+    color: #080d04;
 }
 .left h1{
     font-size: 4.5vw;
@@ -74,14 +82,19 @@ html,body{
     margin-top: 4vw;
 }
 .left span {
-    color: lightseagreen;
+    color: #1C60B4;
 }
 
 
 .right{
     height: 100%;
     width: 50%;
-    background-color:rosybrown ;
+    /* background-color:rosybrown ; */
+}
+.right img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
 }
 
 
