@@ -23,14 +23,33 @@ html,body{
     align-items:center ;
     justify-content: space-between;
     padding: 0 2.5vw;
+    position: relative;
+    margin: 0vw 2vw;
     /* border-bottom: 2px solid #dadada; */
 }
 .nav h2{
     font-size: 3vw;
-    color: #032018;
+    color: #03152B;
 }
-.nav h4{
+.nav h4 {
     font-size: 1.5vw;
+    padding: 0.7vw 0vw;
+}
+.nav button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    /* margin-top: 4vw; */
+    font-size: 1.5vw;
+    background-color: #1C60B4;
+    border: none;
+    /* padding: 1vw 2vw; */
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.nav button:hover{
+    background-color:#71ABF5;
+    color: #080d04;
 }
 .nav h4:hover{
     color:#1C60B4;
@@ -54,7 +73,7 @@ html,body{
     height: 100%;
     width: 50%;
     /* background-color:blanchedalmond ; */
-    padding: 6vw 7vw;
+    padding: 0 4.1vw;
 }
 .left button {
     margin-top: 4vw;
@@ -92,6 +111,7 @@ html,body{
     /* background-color:rosybrown ; */
 }
 .right img {
+    padding-right: 5px;
     height: 100%;
     width: 100%;
     border-radius: 20px;
@@ -107,20 +127,51 @@ html,body{
 
 @media (max-width:600px) {
     .nav{
-        background-color: lightseagreen;
-        color: #fff;
+        /* background-color: lightseagreen;
+        color: #fff; */
+        padding: 0,  0.7vw;
+        height: 60px;
     }
     .nav h2{
         font-size: 4vw;
-        padding: 0 5vw;
+        padding: 0 1.2vw;
     }
-    .nav h4{
+    .nav h4, .nav button{
        display: none;
     }
     .nav i {
         display: block;
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 500;
+        padding: 0 4vw;
           
     }
-}
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .left {
+        height: 50%;
+        width: 100%;
+        padding: 4vw 5vw;
+    }
+    .left h1{
+        margin-top: 4vw;
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+    .left p{
+        margin-top: 5vw;
+        margin-bottom: 4vw;
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .left button {
+        margin-top: 2vw;
+        font-size: 3.5vw;
+    }
+    .right {
+        height: 50%;
+        width: 100%;
+    }
+ 
