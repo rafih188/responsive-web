@@ -112,7 +112,6 @@ html,body{
 }
 .right img {
     padding-right: 5px;
-    padding-left:5px;
     height: 100%;
     width: 100%;
     border-radius: 20px;
@@ -175,4 +174,6 @@ html,body{
         height: 50%;
         width: 100%;
     }
+    .right img{
+    padding-left:5px;}
  }
