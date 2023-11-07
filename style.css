@@ -125,7 +125,7 @@ html,body{
 
 
 
-@media (max-width:600px) {
+@media screen and (max-width:600px) {
     .nav{
         /* background-color: lightseagreen;
         color: #fff; */
